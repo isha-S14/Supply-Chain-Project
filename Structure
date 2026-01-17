@@ -1,0 +1,30 @@
+supply-chain-stockout-prediction-sql/
+│
+├── README.md
+│
+├── data/
+│   ├── raw/
+│   │   └── m5_sales_sample.csv
+│   ├── processed/
+│   │   └── demand_aggregated_daily.csv
+│
+├── schema/
+│   └── supply_chain_schema.sql
+│
+├── sql/
+│   ├── 01_inventory_monitoring.sql
+│   ├── 02_demand_analysis.sql
+│   ├── 03_inventory_coverage.sql
+│   ├── 04_stockout_prediction.sql
+│   └── 05_risk_classification.sql
+│
+├── python/              # optional upgrade
+│   ├── demand_forecast_14_days.ipynb
+│   └── forecast_utils.py
+│
+├── reports/
+│   ├── business_insights.md
+│   └── recommendations.md
+│
+└── visuals/              # optional
+    └── stockout_risk_dashboard.png
